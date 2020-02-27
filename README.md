@@ -10,3 +10,8 @@ Calculate is licensed under the [MIT License](https://github.com/DayBreak365/Cal
 
 New challenges, infinite possibilities. Further development is allowed to any developers.
 If you've created a new code that you want everyone to know, please contribute to the project through the Pull Request.<br>
+
+
+**🗺 Wiki**
+
+Click [here](https://github.com/DayBreak365/Calculate/wiki) to go to the wiki.
