@@ -1,0 +1,10 @@
+.idea/.gitignore
+.idea/codeStyles/
+.idea/compiler.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/uiDesigner.xml
+Calculate.iml
+pom.xml
+target/
+/.idea/
