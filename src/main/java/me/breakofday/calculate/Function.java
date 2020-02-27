@@ -1,7 +1,5 @@
 package me.breakofday.calculate;
 
-import com.google.common.math.BigIntegerMath;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -47,10 +45,7 @@ public abstract class Function {
 	public static final Function FACTORIAL = new Function("!", "factorial", "fac") {
 		@Override
 		public double calculate(double value) {
-			if (value == Math.floor(value)) {
-				if (!Double.isInfinite(value)) return BigIntegerMath.factorial((int) value).doubleValue();
-				else throw new ArithmeticException("Factorial of infinite value");
-			} else throw new ArithmeticException("Factorial of non natural number");
+			return MathUtil.factorial(value);
 		}
 	};
 	public static final Function ROUND = new Function("round") {
